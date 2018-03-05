@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PreferencesExercise</string>
+
+    <string name="action_settings">SETTINGS</string>
+
+    <string name="str_btn_show">Show Values</string>
+
+    <string name="str_settings_title">SETTINGS</string>
+
+    <string name="str_etp_edittext_preference1_title">UserName</string>
+    <string name="str_etp_edittext_username_summary">Please enter your login username</string>
+
+    <string name="str_etp_edittext_preference2_title">Password</string>
+    <string name="str_etp_edittext_password_summary">Set Your Password</string>
+
+    <string name="str_security_settings_title">SECURITY SETTINGS</string>
+
+    <string name="str_cbp_checkbox_preference_title">ScreenLock</string>
+    <string name="str_cbp_checkbox_preference_summary">Lock The Screen With Password</string>
+
+    <string name="lp_list_preference_title">Reminder For Updation</string>
+    <string name="lp_list_preference_summary">Set Update Reminder Frequency</string>
+
+    <string-array name="array_list_preference_entries">
+        <item>30 min</item>
+        <item>1 hour</item>
+        <item>2 hour</item>
+    </string-array>
+
+    <string-array name="array_list_preference_entry_values">
+        <item>30 min</item>
+        <item>1 hour</item>
+        <item>2 hour</item>
+    </string-array>
+</resources>

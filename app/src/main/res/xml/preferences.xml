@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/str_settings_title"
+        >
+
+        <EditTextPreference
+            android:key="etp_edittext_preference1"
+            android:title="@string/str_etp_edittext_preference1_title"
+            android:summary="@string/str_etp_edittext_username_summary"
+            />
+
+        <EditTextPreference
+            android:key="etp_edittext_preference2"
+            android:title="@string/str_etp_edittext_preference2_title"
+            android:summary="@string/str_etp_edittext_username_summary"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/str_security_settings_title">
+
+        <CheckBoxPreference
+            android:key="cbp_checkbox_preference"
+            android:title="@string/str_cbp_checkbox_preference_title"
+            android:summary="@string/str_cbp_checkbox_preference_summary"
+            />
+
+
+        <ListPreference
+            android:key="lp_list_preference"
+            android:title="@string/lp_list_preference_title"
+            android:summary="@string/lp_list_preference_summary"
+            android:entries="@array/array_list_preference_entries"
+            android:entryValues="@array/array_list_preference_entry_values"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>
